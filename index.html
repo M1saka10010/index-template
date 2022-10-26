@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Front Page</title>
+    <style>
+        body {
+            position: fixed;
+            background: url(https://tuchuangs.com/imgs/2022/10/19/600dd3ba7da641be.png) no-repeat;
+            top: 0;
+            left: 0;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center 0;
+        }
+
+        .bg {
+            background-color: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(5px);
+            position: fixed;
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+
+        #fontset {
+            font-size: calc(3vw + 1vh + 1vmin);
+        }
+
+        .middle {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="bg"></div>
+    <div id="fontset" class="middle">
+        Front Page
+    </div>
+</body>
+
+</html>
